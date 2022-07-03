@@ -1,0 +1,325 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<link rel="stylesheet" href="./themes/negro.min.css" />
+	<link rel="stylesheet" href="./themes/jquery.mobile.icons.min.css" />
+
+	<style>
+		.fondo {
+               background-image: url("./imge/mode1.jpg");
+               background-position: center;
+               background-size: 60%;
+          }
+		  .marco {
+               color:rgb(255, 255, 255);
+			   
+          }
+		  
+		  
+	</style>
+</head>
+<body>
+	
+	<div data-role="page">
+		<div data-role="header">
+			<div class="data-theme ui-body-a">
+			<div data-role="navbar" data-iconpos="bottom">
+				<ul>
+					<li><a href="index.html" data-icon="home">Inicio</a></li>
+					<li><a href="#mode" data-icon="tag">Modelos</a></li>
+					<li><a href="#histo" data-icon="info">Museo</a></li>
+					<li><a href="#noti" data-icon="star">Noticias</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div>
+		</div>
+		<div data-role="content" class="ui-content">
+			<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+				<!-- Indicators/dots -->
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+				  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+				  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+				</div>
+				
+				<!-- The slideshow/carousel -->
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img class="img-fluid" src="imge/1.jpg"  style="width:100%">
+					<div class="carousel-caption">
+					  <h3>COUNTACH LPI 800-4</h3>
+					  <p>EL FUTURO ES NUESTRO LEGADO</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img class="img-fluid" src="imge/2.jpg"  style="width:100%">
+					<div class="carousel-caption">
+					  <h3>HURACAN STO</h3>
+					  <p>BASADA EN UNA HISTORIA REAL</p>
+					</div> 
+				  </div>
+				  <div class="carousel-item">
+					<img class="img-fluid" src="imge/4.jpg" alt="New York" class="d-block" style="width:100%">
+					<div class="carousel-caption">
+					  <h3>AVENTADOR SVJ</h3>
+					  <p>lAS EMOCIONES REALES DAN FORMA AL FUTURO</p>
+					</div>  
+				  </div>
+				</div>
+				
+				
+			  </div>
+			  
+			  
+
+
+		</div>
+
+		<div data-role="footer"data-position="fixed">
+			Valores de consumo de combustible y emisiones de todos los coches presentes en esta página*; 
+			Consumo de combustible en ciclo combinado: 19,5-12,7 l/100km (WLTP); Emisiones de CO₂ en ciclo combinado: 448-325 g/km (WLTP)
+
+		</div>
+	</div><!--Final-->
+
+	<!--Inicio-->
+	<div data-role="page" id="mode">
+		<div data-role="header">
+			<div class="data-theme ui-body-a">
+			<div data-role="navbar" data-iconpos="bottom">
+				<ul>
+					<li><a href="index.html" data-icon="home">Inicio</a></li>
+					<li><a href="#mode" data-icon="tag">Modelos</a></li>
+					<li><a href="#histo" data-icon="info">Museo</a></li>
+					<li><a href="#noti" data-icon="star">Noticias</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div>
+		</div><!--Final de header-->
+		<div data-role="content" class="ui-content"><!--inicio del content-->
+			<div class="p-5 rounded fondo">
+				<div class="marco">
+					<h3 class="display-1 ">Modelos</h3>
+					<p class="display-4 ">LAMBORGHINI</p>
+				</div>
+			</div>
+			<br>
+
+
+			
+
+			  <div class="row">
+				<article class="col">
+					 <div class="card">
+						  <img src="imge/AVENTA.jpg" class="card-img-top img-thumbnail">
+						  <div class="card-body">
+							<h5 class="card-title">AVENTADOR</h5>
+							<p class="card-text">El Aventador fue creado con el objetivo de adelantarse al futuro, como se refleja en el uso de tecnologías innovadoras, tales como el motor V12, y en el uso de la fibra de carbono.
+								Verdaderas obras maestras de diseño que expresan dinamismo y agresividad y que han hecho del monocasco de carbono su punta de lanza. El interior del Aventador combina tecnologías de altísimo nivel y equipamientos de lujo con materiales de altísima calidad magistralmente elaborados, como exige la mejor tradición italiana. Una familia de superdeportivos que ya es leyenda. Descubra las fichas técnicas, las dimensiones, las prestaciones y las características detalladas de los nuevos modelos Lamborghini Aventador.</p>
+							<a href="#" class="btn btn-color">Ver más...</a>
+						  </div>
+						</div>
+				</article>
+				<article class="col">
+					 <div class="card">
+						  <img src="imge/HURA.jpg" class="card-img-top img-thumbnail" >
+						  <div class="card-body">
+							<h5 class="card-title">HURACAN</h5>
+							<p class="card-text">De nuestro pasado hemos aprendido a la perfección. Así nació el primer modelo de Lamborghini Huracán.
+								Aún más prestaciones, aún más control, aún más innovación.
+								El Huracán, con su motor V10 y la tecnología más avanzada, es capaz de ofrecer una experiencia de conducción extraordinaria.
+								Diseñado para garantizar las mejores prestaciones y ser controlable en cualquier situación de conducción, es fácil de llevar al límite y extremadamente emocionante, gracias a tecnologías como el cambio Lamborghini Doppia Frizione (LDF) y el sistema de tracción total con control electrónico.
+								
+								Así nace la mejor experiencia de conducción de todos los tiempos. Descubra todos los modelos de Lamborghini Huracán actualmente en venta.</p>
+							<a href="#" class="btn btn-color">Ver más...</a>
+						  </div>
+						</div>
+				</article>
+				<article class="col">
+					 <div class="card">
+						  <img src="./imge/URUS.jpg" class="card-img-top img-thumbnail">
+						  <div class="card-body">
+							   <h5 class="card-title">URUS</h5>
+							   <p class="card-text">El Lamborghini Urus es el primer vehículo utilitario superdeportivo del mundo en el que el lujo, el carácter deportivo y las prestaciones van de la mano del confort y la versatilidad, garantizando la mejor dinámica de conducción de su categoría y un diseño con una elegancia inconfundible. El Urus aúna las características de múltiples espíritus: deportivo, elegante y off-road. Perfecto para la conducción de todos los días en cualquier ámbito. El raspante rugido del motor y las elevadas prestaciones convierten al Lamborghini Urus en un coche sorprendente.</p>
+							   <a href="#" class="btn btn-color">Ver más...</a>
+						  </div>
+					 </div>
+				</article>
+			   <article class="col">
+					 <div class="card">
+						  <img src="./imge/LI1.jpg" class="card-img-top img-thumbnail">
+						  <img src="./imge/LI2.jpg" class="card-img-top img-thumbnail">
+						  <img src="./imge/LI3.jpg" class="card-img-top img-thumbnail">
+						  <div class="card-body">
+							   <h5 class="card-title">SERIES LIMITADAS</h5>
+							   <p class="card-text">Los Limited Series son Lamborghini más exclusivos, fabricados en edición limitada para un reducido y selectísimo número de clientes. Los Limited Series, auténtica tecnología punta en el ámbito de los superdeportivos, representan el espíritu Lamborghini más puro en todos los aspectos y cuentan con las características más avanzadas disponibles, tanto en su diseño como en su tecnología.</p>
+							   <a href="#" class="btn btn-color">Ver más...</a>
+						  </div>
+					 </div>
+				</article>
+		   </div>
+			   
+			  </body>
+
+
+
+		</div><!--Final del content-->
+		<!--pie de pagina-->
+		<div data-role="footer"data-position="fixed">
+			Valores de consumo de combustible y emisiones de todos los coches presentes en esta página*; 
+			Consumo de combustible en ciclo combinado: 19,5-12,7 l/100km (WLTP); Emisiones de CO₂ en ciclo combinado: 448-325 g/km (WLTP)
+
+		</div>
+	</div><!--Final de la pagina-->
+
+	<!--Inicio-->
+	<div data-role="page" id="histo">
+		<div data-role="header">
+			<div class="data-theme ui-body-a">
+			<div data-role="navbar" data-iconpos="bottom">
+				<ul>
+					<li><a href="index.html" data-icon="home">Inicio</a></li>
+					<li><a href="#mode" data-icon="tag">Modelos</a></li>
+					<li><a href="#histo" data-icon="info">Museo</a></li>
+					<li><a href="#noti" data-icon="star">Noticias</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div>
+		</div><!--Final de header-->
+		<div data-role="content" class="ui-content"><!--inicio del content-->
+
+			<div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+				<!-- Indicators/dots -->
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+				  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+				  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+				</div>
+				
+				<!-- The slideshow/carousel -->
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="imge/muse.jpg"  class="d-block" style="width:100%">
+					<div class="carousel-caption">
+					  <h3>LAMBORGHINI MUSEO</h3>
+					  <p>MUDETEC</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="imge/muse1.jpg"  class="d-block" style="width:100%">
+					<div class="carousel-caption">
+						<h3>LAMBORGHINI MUSEO</h3>
+						<p>MUDETEC</p>
+					</div> 
+				  </div>
+				  <div class="carousel-item">
+					<img src="imge/muse2.jpg"  class="d-block" style="width:100%">
+					<div class="carousel-caption">
+						<h3>LAMBORGHINI MUSEO</h3>
+						<p>MUDETEC</p>
+					</div>  
+				  </div>
+				</div>
+			  </div>
+			  <br>
+			  <div class="row">
+				<div class="col-sm-6"><H2>MUDETEC: AL DESCUBRIMIENTO DEL FUTURO</H2>
+					<P>El Museo Lamborghini se renueva convirtiéndose en Museo de las Tecnologías, donde la fascinante historia de la Casa del Toro, los icónicos modelos y las visitas a las líneas de producción hablan de más de cincuenta años de innovación que proyectan a Lamborghini hacia el futuro.</P> 
+				</div>
+				<div class="col-sm-6"><img src="imge/moto.jpg" alt="motor de auto" style="width: 100%;"></div>
+			  </div>
+			  <div class="row">
+				<div class="col-sm-6"><img src="imge/clas.jpg" style="width: 100%;"></div>
+				<div class="col-sm-6"><img src="imge/clas1.jpg" style="width: 100%;"></div>
+			  </div>
+			  <br>
+			  <div class="row">
+				<div class="col-sm-6"><img src="imge/mude.jpg" style="width: 100%;"></div>
+				<div class="col-sm-6"><p>Mudetec ofrece una experiencia interactiva gracias, entre otras cosas, al nuevo simulador de conducción, que amplifica las emociones y el descubrimiento de los coches en exposición.</p></div>
+			  </div>
+			  <br>
+			  <p>Para visitar el Mudetec con total seguridad, recuerda que es obligatorio reservar con antelación. Para acceder al Museo y a los departamentos de fabricación es necesario usar mascarilla. Más información y reservas.</p>
+			  <p>FECHAS DE CIERRE 2022</p>
+			  <ul>
+				<li>1 de enero; 1 de mayo; 15 de agosto; 25 de diciembre</li>
+				<li>10 de marzo (cerrado hasta las 13:30)</li>
+				<li>16, 23 y 30 de septiembre</li>
+				<li>24 y 31 de diciembre (cierre anticipado a las 14:00 h)</li>
+			  </ul>
+
+		</div><!--Final del content-->
+		<!--pie de pagina-->
+		<div data-role="footer"data-position="fixed">
+			Copyright © 2022 Automobili Lamborghini S.p.A. una sociedad unipersonal de Audi Group.
+			Todos los derechos reservados. Núm. IVA IT 00591801204
+		</div>
+	</div><!--Final de la pagina-->
+
+	<!--Inicio-->
+	<div data-role="page" id="noti">
+		<div data-role="header">
+			<div class="data-theme ui-body-a">
+			<div data-role="navbar" data-iconpos="bottom">
+				<ul>
+					<li><a href="index.html" data-icon="home">Inicio</a></li>
+					<li><a href="#mode" data-icon="tag">Modelos</a></li>
+					<li><a href="#histo" data-icon="info">Museo</a></li>
+					<li><a href="#noti" data-icon="star">Noticias</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div>
+		</div><!--Final de header-->
+		<div data-role="content" class="ui-content"><!--inicio del content-->
+			<h3>Noticias</h3>
+			<h2>LAMBORGHINI WORLD</h2>
+			<img src="imge/noti1.jpg" style="width: 100%;">
+			<br>
+			<br>
+			<h4>1 Julio 2022</h4>
+			<p style="color: rgb(126, 123, 123);">HURACAN</p>
+			<h3 style="text-align: center;"><a href="#">HURACAN DATOS TECNICOS</a></h3>
+			<br>
+			<br>
+
+			<img src="imge/noti2.jpg" style="width: 100%;">
+			<br>
+			<br>
+			<h4>30 Junio 2022</h4>
+			<p style="color: rgb(126, 123, 123);">AVENTADOR, HURACAN</p>
+			<h3 style="text-align: center;"><a href="#">LAMBORGHINI COUNTACH LPI 800-4 EN JAPÓN</a></h3>
+			<br>
+			<br>
+
+
+			<img src="imge/noti3.webp" style="width: 100%;">
+			<br>
+			<br>
+			<h4>29 Junio 2022</h4>
+			<p style="color: rgb(126, 123, 123);">GESTIONAR</p>
+			<h3 style="text-align: center;"><a href="#">LAMBORGHINI ADVENTURE EXPERIENCE EN ISLANDIA</a></h3>
+			<br>
+			<br>
+			<a href="#" class="ui-btn ui-shadow">Ver mas</a>
+
+		</div><!--Final del content-->
+		<!--pie de pagina-->
+		<div data-role="footer"data-position="fixed">
+			Copyright © 2022 Automobili Lamborghini S.p.A. una sociedad unipersonal de Audi Group.
+			Todos los derechos reservados. Núm. IVA IT 00591801204
+		</div>
+	</div><!--Final de la pagina-->
+
+</body>
+</html>
